@@ -1,4 +1,4 @@
-# Assignment 1 -- Image Processing
+# Image Processing
 
 CPU-based image processing pipeline built on top of an OpenGL engine. The program loads a source image (`Lenna.png`) and applies four classical image processing algorithms, producing both a `.png` image and a `.txt` data file for each.
 
@@ -7,11 +7,11 @@ All processing is done on raw pixel buffers on the CPU. No OpenGL or engine code
 ## Results
 
 <p align="center">
-  <img src="bin/res/textures/Lenna.png" width="150" alt="Original" />
-  <img src="bin/res/textures/Grayscale.png" width="150" alt="Grayscale" />
-  <img src="bin/res/textures/Canny.png" width="150" alt="Canny Edge Detection" />
-  <img src="bin/res/textures/Halftone.png" width="150" alt="Halftone" />
-  <img src="bin/res/textures/FloyedSteinberg.png" width="150" alt="Floyd-Steinberg" />
+  <img src="images/Lenna.png" width="150" alt="Original" />
+  <img src="images/Grayscale.png" width="150" alt="Grayscale" />
+  <img src="images/Canny.png" width="150" alt="Canny Edge Detection" />
+  <img src="images/Halftone.png" width="150" alt="Halftone" />
+  <img src="images/FloyedSteinberg.png" width="150" alt="Floyd-Steinberg" />
 </p>
 <p align="center">
   <em>Original &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Grayscale &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Canny &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Halftone &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Floyd-Steinberg</em>
