@@ -1,0 +1,33 @@
+Engine Modification Summary
+
+Files Modified:
+Only one file was changed: main.cpp
+
+Summary of Changes:
+The engine itself was not modified. All work for the assignment was implemented directly inside main.cpp. All image processing is done on the CPU and does not affect any rendering or OpenGL components.
+Functions Added in main.cpp
+
+The following functions were added to perform the required processing:
+clip
+toGrayscale
+gaussianBlur
+sobel
+nonMaxSuppression
+doubleThreshold
+hysteresis
+cannyEdgeDetection
+makeHalftone
+floydSteinberg16
+
+Changes in main:
+The main function was updated to:
+Load the original image
+Create and save the grayscale image and Grayscale.txt
+Create and save the Canny image and Canny.txt
+Create and save the halftone image and Halftone.txt
+Create and save the Floyd Steinberg image and FloyedSteinberg.txt
+Release all allocated memory
+
+Engine Impact:
+No engine or OpenGL files were edited.
+All new code exists only inside main.cpp and operates on raw image buffers.
