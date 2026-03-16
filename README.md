@@ -6,9 +6,16 @@ All processing is done on raw pixel buffers on the CPU. No OpenGL or engine code
 
 ## Results
 
-| Original | Grayscale | Canny Edge Detection | Halftone | Floyd-Steinberg |
-|:---:|:---:|:---:|:---:|:---:|
-| ![Original](bin/res/textures/Lenna.png) | ![Grayscale](bin/res/textures/Grayscale.png) | ![Canny](bin/res/textures/Canny.png) | ![Halftone](bin/res/textures/Halftone.png) | ![Floyd-Steinberg](bin/res/textures/FloyedSteinberg.png) |
+<p align="center">
+  <img src="bin/res/textures/Lenna.png" width="150" alt="Original" />
+  <img src="bin/res/textures/Grayscale.png" width="150" alt="Grayscale" />
+  <img src="bin/res/textures/Canny.png" width="150" alt="Canny Edge Detection" />
+  <img src="bin/res/textures/Halftone.png" width="150" alt="Halftone" />
+  <img src="bin/res/textures/FloyedSteinberg.png" width="150" alt="Floyd-Steinberg" />
+</p>
+<p align="center">
+  <em>Original &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Grayscale &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Canny &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Halftone &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Floyd-Steinberg</em>
+</p>
 
 ## Grayscale Conversion
 
