@@ -6,16 +6,15 @@ All processing is done on raw pixel buffers on the CPU. No OpenGL or engine code
 
 ## Results
 
-<p align="center">
-  <img src="images/Lenna.png" width="150" alt="Original" />
-  <img src="images/Grayscale.png" width="150" alt="Grayscale" />
-  <img src="images/Canny.png" width="150" alt="Canny Edge Detection" />
-  <img src="images/Halftone.png" width="150" alt="Halftone" />
-  <img src="images/FloyedSteinberg.png" width="150" alt="Floyd-Steinberg" />
-</p>
-<p align="center">
-  <em>Original &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Grayscale &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Canny &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Halftone &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Floyd-Steinberg</em>
-</p>
+<table align="center">
+  <tr>
+    <td align="center"><img src="images/Lenna.png" width="150" alt="Original" /><br><em>Original</em></td>
+    <td align="center"><img src="images/Grayscale.png" width="150" alt="Grayscale" /><br><em>Grayscale</em></td>
+    <td align="center"><img src="images/Canny.png" width="150" alt="Canny" /><br><em>Canny</em></td>
+    <td align="center"><img src="images/Halftone.png" width="150" alt="Halftone" /><br><em>Halftone</em></td>
+    <td align="center"><img src="images/FloyedSteinberg.png" width="150" alt="Floyd-Steinberg" /><br><em>Floyd-Steinberg</em></td>
+  </tr>
+</table>
 
 ## Grayscale Conversion
 
